@@ -1,0 +1,27 @@
+ *{
+	 padding:auto;
+	 margin:auto;
+ }
+ 
+ .main{
+	background-image:url(image/smallbriyani.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	height:100vh;
+ }
+ .upperleft{
+	 color:#DFFF00;
+     padding:25px
+ }
+ .flex-container{
+	 display:flex;
+	 background-color:white;
+ }
+
+  span{
+	  color:#FF5733 ;
+	  padding-right:px;
+	  font-weight:bold;
+	  font-size:30px;
+  }
+ 
