@@ -1,0 +1,83 @@
+.outer{
+	background-image:url(image/backimage.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	height:100vh;
+}
+.container{
+   
+	width:90%;
+	margin:auto;
+	outline:2px red soild;
+}
+.header{
+	display:flex;
+    font-family:jockerman;
+
+}
+
+.title{
+	padding:10px;
+	color:rgb(255, 160, 122);
+	font-size:bold;
+	font-family:;
+ 
+}	
+	
+.sidebar {
+    
+	
+}
+.side{
+    display:flex;
+	float:right;
+	list-style-type:none;
+	margin:0 600px;
+	padding:10px;
+	font-family:arial;
+	font-weight:bold;
+	
+}
+.side li a{
+	text-decoration:none;
+	 color:rgb(255, 160, 122);
+	 
+}
+.side li{
+	padding:30px;
+	text-align:center;
+	
+}
+
+.nextpage{
+	background-color:;
+	background-size:cover;
+	height:100vh;
+	background-image:conic-gradient(gray,brown,white);
+	
+}
+p{
+	font-family:jockerman;
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
