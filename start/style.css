@@ -1,10 +1,21 @@
+*{
+	margin:0;
+	padding:0;
+}
 .container{
 	margin:auto;
 	width:90%;
 
 }
+.gopi{
+	
+}
+
 header{
 	background-color:white;
+	height:50px;
+	padding:20px;
+
 }
 .fullheader {
 	display:flex;
@@ -16,6 +27,7 @@ header{
 	width:30%;
 	font-weight:bold;
 	font-size:20px;
+	font-family:arial;
 
 }
 .toprightside ul{
@@ -38,26 +50,32 @@ ul li{
    padding:30px;
    font-size:20px;
    color:black;
+   font-family:arial;
 }
 a:hover{
 	color:blue;
 	transition:all 0.8s ease-in-out;
 }
 .main{
-	background-color:transparent;
+	background-color:gray;
 	height:60vh;
 	background-image:url(image/background.jpg);
-	
+	background-attachment:fixed;
 	
 }
+.main:hover{
+	opacity:0.7;
+	transition:09.s;
+}
 .content{
-	padding:50px 500px 70px 100px;
+	padding:100px 500px 70px 100px;
 	margin-bottom:30px;
 }
 .content h1{
 	font-weight:bold;
 	font-size:50px;
 	padding:5px;
+	font-family:arial;
 }
 span{
 	color:blue;
@@ -67,8 +85,9 @@ span{
 .content p{
 	font-weight:bold;
 	font-family:arial;
-	font-size:20px;
+	font-size:25px;
 	padding:auto;
+	color:black;
 }
 .firstbutton{
 	background-color:;
@@ -79,6 +98,57 @@ span{
 	height:40px;
 	width:150px;
 	background-color:blue;
-	color:white;
-	border-color:transparent;
+	color:black;
+	border-color:white;
+	font-family:arial;
+	border:groove;
+	margin-top:30px;
+}
+.firstbutton:hover{
+	background-color:green;
+	transition:all 0.6s ease-in-out;
+}
+.velmurugan{
+	background-color:white;
+	height:45vh;
+}
+.holbox{
+	display:flex;
+	justify-content:space-between;
+	margin:auto;
+	height:45vh;
+	padding:10px;
+	
+}
+.firstbox{
+	margin:40px 40px 40px 40px;
+	border:solid gray;
+	padding:auto;
+	background-color:;
+	border-top-left-radius:10px;
+    border-top-right-radius:10px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px
+}
+.firstbox p{
+	padding:10px;
+	margin:160px 10px 10px 10px;
+}
+.firstbox h2{
+	justify-content:center;
+	position:absolute;
+
+}
+.velmurugan h2{
+	margin-top:130px;
+	margin-left:15px;
+}
+.firstbox:hover{
+	background-color:blue;
+	transition:0.9s ease-in;
+}
+.prabakar{
+	background-color:yellow;
+	height:100vh;
+	
 }
