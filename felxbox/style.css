@@ -1,0 +1,34 @@
+*{
+	margin:0;
+	padding:0;
+}
+.container{
+	height:auto;
+	width:90%;
+	margin:auto;
+}
+.fullsection{
+	background-color:aqua;
+	height:100vh;
+
+}
+header{
+	height:10vh;
+    border: 3px solid pink;
+	width:100%;
+}
+.hmf{
+	display:flex;
+}
+
+.menu{
+	height:80vh;
+	width:25%;
+	border:2px solid green;
+}
+.main{
+	height:80vh;
+	width:75%;
+	border:2px solid blue;
+}
+
